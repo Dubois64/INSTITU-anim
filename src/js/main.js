@@ -18,3 +18,10 @@ var box3 = document.querySelector(".box3");
 hand.addEventListener("click", function () {
   box3.classList.add("is-active");
 });
+
+var hand = document.querySelector(".hand");
+var box4 = document.querySelector(".box4");
+
+hand.addEventListener("click", function () {
+  box4.classList.add("is-active");
+});
