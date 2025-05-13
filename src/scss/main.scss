@@ -15,12 +15,12 @@ body {
 }
 
 .box1 {
-  width: 200px;
-  height: 300px;
-  background: blue;
+  width: 625px;
+  height: 1090px;
+  background-image: url(../img/pattern_00_left.svg);
   position: fixed;
   top: 0px;
-  left: 1700px;
+  left: 1680px;
   transition: all 2s;
 }
 
@@ -35,13 +35,13 @@ body {
 }
 
 .box2 {
-  width: 200px;
-  height: 300px;
-  background: rgb(198, 16, 16);
+  width: 400px;
+  height: 570px;
   position: fixed;
-  top: 0px;
+  top: -100px;
   right: 1690px;
   transition: all 2s;
+  background-image: url(../img/pattern_01_right.png);
 }
 
 .box2.is-active {
@@ -50,13 +50,13 @@ body {
 }
 
 .box3 {
-  width: 200px;
+  width: 440px;
   height: 300px;
-  background: rgb(25, 113, 76);
   position: fixed;
   top: 1350px;
-  left: 1700px;
+  left: 1600px;
   transition: all 2s;
+  background-image: url(../img/pattern_02_left.png);
 }
 
 .box3.is-active {
@@ -65,13 +65,13 @@ body {
 }
 
 .box4 {
-  width: 200px;
-  height: 300px;
-  background: rgb(242, 250, 4);
+  width: 400px;
+  height: 1000px;
   position: fixed;
-  top: 1350px;
-  left: 2590px;
+  top: 700px;
+  left: 2380px;
   transition: all 2s;
+  background-image: url(../img/pattern_03_right.png);
 }
 
 .box4.is-active {
