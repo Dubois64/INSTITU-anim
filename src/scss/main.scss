@@ -12,34 +12,37 @@ body {
   height: 1920px;
   margin: 0 auto;
   background: #fff;
+  position: relative;
 }
 
 .box1 {
   width: 625px;
   height: 1090px;
   background-image: url(../img/pattern_00_left.svg);
-  position: fixed;
+  position: absolute;
   top: 0px;
-  left: 1680px;
+  left: 0px;
   transition: all 2s;
 }
 
 .box1.is-active {
-  top: 500px;
-  left: 2000px;
+  top: 20%;
+  left: 20%;
 }
 
 .hand {
-  margin-left: 200px;
+  margin-left: 30%;
   margin-top: 400px;
+  position: relative;
+  z-index: 1;
 }
 
 .box2 {
   width: 400px;
   height: 570px;
-  position: fixed;
-  top: -100px;
-  right: 1690px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   transition: all 2s;
   background-image: url(../img/pattern_01_right.png);
 }
@@ -52,9 +55,9 @@ body {
 .box3 {
   width: 440px;
   height: 300px;
-  position: fixed;
-  top: 1350px;
-  left: 1600px;
+  position: absolute;
+  top: 85%;
+  left: 0px;
   transition: all 2s;
   background-image: url(../img/pattern_02_left.png);
 }
@@ -67,9 +70,9 @@ body {
 .box4 {
   width: 400px;
   height: 1000px;
-  position: fixed;
-  top: 700px;
-  left: 2380px;
+  position: absolute;
+  top: 50%;
+  left: 64%;
   transition: all 2s;
   background-image: url(../img/pattern_03_right.png);
 }
@@ -80,22 +83,38 @@ body {
 }
 
 .title-agenda {
-  margin-left: 200px;
+  margin-left: 50%;
   color: #f00;
   font-family: Inter;
   font-size: 70px;
   font-weight: 400;
   letter-spacing: 7px;
   align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.title-agenda.is-active {
+  margin-left: 50%;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .text-agenda {
-  margin-left: 195px;
+  margin-left: 50%;
   color: #000;
   font-family: Inter;
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 2.4px;
+  position: relative;
+  z-index: 1;
 }
 
 .langue {
@@ -116,4 +135,11 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+.logo {
+  margin-top: 85%;
+  margin-left: 80%;
+  position: relative;
+  z-index: 1;
 }

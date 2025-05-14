@@ -25,3 +25,10 @@ var box4 = document.querySelector(".box4");
 hand.addEventListener("click", function () {
   box4.classList.add("is-active");
 });
+
+var hand = document.querySelector(".hand");
+var titleagenda = document.querySelector(".title-agenda");
+
+hand.addEventListener("click", function () {
+  box4.classList.add("is-active");
+});
