@@ -30,5 +30,12 @@ var hand = document.querySelector(".hand");
 var titleagenda = document.querySelector(".title-agenda");
 
 hand.addEventListener("click", function () {
-  box4.classList.add("is-active");
+  titleagenda.classList.add("is-active");
+});
+
+var hand = document.querySelector(".hand");
+var titleagenda = document.querySelector(".text-agenda");
+
+hand.addEventListener("click", function () {
+  textagenda.classList.add("is-active");
 });

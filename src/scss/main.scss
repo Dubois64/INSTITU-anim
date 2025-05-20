@@ -36,6 +36,8 @@ body {
   margin-top: 400px;
   position: relative;
   z-index: 1;
+  transition: opacity 0.3s ease;
+  opacity: 1;
 }
 
 .box2 {
@@ -96,6 +98,7 @@ body {
   align-items: center;
   position: relative;
   z-index: 1;
+  transition: 0.5s ease;
 }
 
 .title-agenda.is-active {
@@ -113,6 +116,18 @@ body {
 .text-agenda {
   margin-left: 50%;
   color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s ease;
+}
+
+.text-agenda.is-active {
+  margin-left: 50%;
+  color: #ffffff;
   font-family: Inter;
   font-size: 30px;
   font-weight: 400;
