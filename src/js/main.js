@@ -46,3 +46,10 @@ var logoinstitu = document.querySelector(".logo-institu");
 hand.addEventListener("click", function () {
   logoinstitu.classList.add("is-active");
 });
+
+var hand = document.querySelector(".hand");
+var handblanche = document.querySelector(".hand");
+
+hand.addEventListener("click", function () {
+  handblanche.classList.add("is-active");
+});

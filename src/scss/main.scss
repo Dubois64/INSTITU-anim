@@ -32,11 +32,26 @@ body {
 }
 
 .hand {
+  width: 210px;
+  height: 220px;
+  background-image: url(../img/hand.png);
   margin-left: 30%;
   margin-top: 400px;
   position: relative;
   z-index: 1;
   transition: opacity 0.3s ease;
+  transition: 0.5s ease;
+  opacity: 1;
+}
+
+.hand.is-active {
+  width: 208px;
+  height: 220px;
+  background-image: url(../img/main-blanche.png);
+  margin-left: 30%;
+  margin-top: 400px;
+  position: relative;
+  z-index: 1;
   opacity: 1;
 }
 
@@ -168,7 +183,7 @@ body {
   margin-left: 80%;
   position: relative;
   z-index: 1;
-  transition: 0.5s ease;
+  transition: 0.9s ease;
 }
 
 .logo-institu.is-active {
