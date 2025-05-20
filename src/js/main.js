@@ -35,6 +35,7 @@ hand.addEventListener("click", function () {
 
 var hand = document.querySelector(".hand");
 var titleagenda = document.querySelector(".text-agenda");
+var textagenda = document.querySelector(".text-agenda");
 
 hand.addEventListener("click", function () {
   textagenda.classList.add("is-active");
