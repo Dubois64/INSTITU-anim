@@ -27,7 +27,8 @@ body {
 
 .box1.is-active {
   top: 20%;
-  left: 20%;
+  left: 17%;
+  transform: scale(1.8);
 }
 
 .hand {
@@ -40,16 +41,17 @@ body {
 .box2 {
   width: 400px;
   height: 570px;
+  background-image: url(../img/pattern_01_right.png);
   position: absolute;
   top: 0px;
-  right: 0px;
+  left: 690px;
   transition: all 2s;
-  background-image: url(../img/pattern_01_right.png);
 }
 
 .box2.is-active {
-  top: 500;
-  left: 2100;
+  top: 33%;
+  left: 31%;
+  transform: scale(2.7);
 }
 
 .box3 {
@@ -63,8 +65,9 @@ body {
 }
 
 .box3.is-active {
-  top: 600;
-  left: 2000;
+  top: 71%;
+  left: 29%;
+  transform: scale(2.8);
 }
 
 .box4 {
@@ -78,8 +81,9 @@ body {
 }
 
 .box4.is-active {
-  top: 600;
-  left: 2100;
+  top: 27%;
+  left: 47%;
+  transform: scale(1.9);
 }
 
 .title-agenda {
@@ -125,6 +129,7 @@ body {
   font-weight: 500;
   margin-top: -290px;
   margin-left: 850px;
+  z-index: 1;
 }
 
 .txt-gras {
