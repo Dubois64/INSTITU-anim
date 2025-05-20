@@ -157,7 +157,27 @@ body {
   line-height: normal;
 }
 
-.logo {
+.logo-institu {
+  width: 150px; /* largeur fixe ou en % */
+  height: 150px; /* hauteur fixe ou en % */
+  background-image: url("../img/logo-noir.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* pour que l’image soit contenue dans le div */
+  margin-top: 85%;
+  margin-left: 80%;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s ease;
+}
+
+.logo-institu.is-active {
+  width: 150px; /* largeur fixe ou en % */
+  height: 150px; /* hauteur fixe ou en % */
+  background-image: url("../img/logo-blanc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* pour que l’image soit contenue dans le div */
   margin-top: 85%;
   margin-left: 80%;
   position: relative;

@@ -39,3 +39,10 @@ var titleagenda = document.querySelector(".text-agenda");
 hand.addEventListener("click", function () {
   textagenda.classList.add("is-active");
 });
+
+var hand = document.querySelector(".hand");
+var logoinstitu = document.querySelector(".logo-institu");
+
+hand.addEventListener("click", function () {
+  logoinstitu.classList.add("is-active");
+});
